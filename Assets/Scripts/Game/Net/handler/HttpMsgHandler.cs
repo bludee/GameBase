@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Game
 {
+	/// <summary>
+	/// http通信的消息注册和分发
+	/// </summary>
 	public class HttpMsgHandler
 	{
 		/// <summary>

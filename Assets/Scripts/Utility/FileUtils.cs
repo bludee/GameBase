@@ -4,6 +4,9 @@ using System.IO;
 
 namespace Game
 {
+	/// <summary>
+	/// 本地文件操作工具类
+	/// </summary>
 	public class FileUtils
 	{
 		public FileUtils ()

@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// 所有BasePanel的名称在这里声明,方便ViewMgr管理调用
+/// </summary>
 public class ViewName{
 	public const string StartPanel="StartPanel";
 

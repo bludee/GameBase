@@ -58,6 +58,8 @@ namespace Game{
 
 //			GRoot.inst.SetContentScaleFactor ((int)GRoot.inst.width, (int)GRoot.inst.height, UIContentScaler.ScreenMatchMode.MatchWidthOrHeight);
 
+
+			//记得放开这行
 //			UIConfig.buttonSound = new NAudioClip(AppMain.Inst.SoundMgr.GetClipById (39));
 			//通用包加载和组件绑定
 			BaseComConfig.Init ();

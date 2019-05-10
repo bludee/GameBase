@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Game
 {
+	/// <summary>
+	/// tcp通信的消息注册和分发,一般是在socket中想一个队列中插入消息,然后在mono脚本中update检测是否有详细,然后dispath,socket是异步的 ,直接抛消息会报错
+	/// </summary>
 	public class TcpMsgHandler
 	{
 

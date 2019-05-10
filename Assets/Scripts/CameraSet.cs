@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// 挂在摄像机上的脚本,根据实际屏幕大小计算摄像机size
+/// </summary>
 public class CameraSet : MonoBehaviour {
 
 	void Start () {

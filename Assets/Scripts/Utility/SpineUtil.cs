@@ -21,7 +21,14 @@ namespace Game
 			}
 		}
 
-
+		/// <summary>
+		/// 反向播放spine动画
+		/// </summary>
+		/// <returns>The play action.</returns>
+		/// <param name="anim">Animation.</param>
+		/// <param name="name">Name.</param>
+		/// <param name="loop">If set to <c>true</c> loop.</param>
+		/// <param name="sc">Sc.</param>
 		public static TrackEntry RevertPlayAction(SkeletonAnimation anim,string name,bool loop=true,float sc=1f)
 		{
 			if (anim != null && anim.state != null) {
@@ -44,7 +51,11 @@ namespace Game
 		}
 
 
-
+		/// <summary>
+		/// 动态修改spine对象的资源
+		/// </summary>
+		/// <param name="anim">Animation.</param>
+		/// <param name="path">Path.</param>
 		public static void ChangeDataAsset(SkeletonAnimation anim,string path)
 		{
 			anim.skeletonDataAsset = AppMain.Inst.ModelMgr.GetSkeletonAsset (path);
@@ -66,7 +77,11 @@ namespace Game
 
 
 
-
+		/// <summary>
+		/// 创建自定义的插槽图片 ,实现换装
+		/// </summary>
+		/// <returns>The region.</returns>
+		/// <param name="tex">Tex.</param>
 		public static AtlasRegion CreateRegion(Texture2D tex)
 		{
 			Spine.AtlasRegion region = new AtlasRegion ();

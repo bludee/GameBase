@@ -6,6 +6,9 @@ using FairyGUI;
 
 namespace Game
 {
+	/// <summary>
+	/// 利用android系统自带实现分享功能
+	/// </summary>
 	public class NativeShareScript : MonoBehaviour {
 		//	public GameObject CanvasShareObj;
 

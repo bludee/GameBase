@@ -9,6 +9,10 @@ namespace Game
 		{
 		}
 
+		/// <summary>
+		/// 显示动画
+		/// </summary>
+		/// <param name="view">View.</param>
 		public static void ShowDialogAnim(GComponent view)
 		{
 			float time = 0.25f;
@@ -29,6 +33,12 @@ namespace Game
 			tw2.SetUpdate (true);
 		}
 
+
+		/// <summary>
+		/// 关闭动画
+		/// </summary>
+		/// <param name="view">View.</param>
+		/// <param name="cb">Cb.</param>
 		public static void HideDialogAnim(GComponent view,TweenCallback cb=null)
 		{
 			Tweener tw = DOTween.To(() => 1f,
